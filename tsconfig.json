@@ -1,15 +1,16 @@
 {
   "compilerOptions": {
+    "paths": {
+      "@/*": ["./src/*"],
+    },
     // Enable latest features
     "lib": ["ES5"],
-    "target": "ESNext",
+    "target": "ES5",
     "module": "ESNext",
     "moduleDetection": "force",
-    "jsx": "preserve",
-    "outDir": "/dist",
 
     // Bundler mode
-    "moduleResolution": "bundler",
+    "moduleResolution": "Bundler",
     "allowImportingTsExtensions": true,
     "verbatimModuleSyntax": true,
     "noEmit": true,
@@ -30,5 +31,5 @@
   "include": [
     "src/**/*",
     "types"
-  ]
+  ],
 }

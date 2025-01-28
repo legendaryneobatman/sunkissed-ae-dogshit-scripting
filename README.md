@@ -17,8 +17,8 @@ This project was created using `bun init` in bun v1.1.20. [Bun](https://bun.sh) 
 To set up webstorm external tool to run scripts in ae
 
 File/Settings/External Tools add new tool with following content
-![img.png](img.png)
+![img.png](assets/img.png)
 
 To build .jsx script manually use similar command
 
-`tsc --noResolve --noCheck .\src\assetSuperSweep.tsx --outdir dist --jsx preserve`
+`tsc --noResolve --noCheck .\src\assetSuperSweep.ts --outdir dist --jsx preserve`
