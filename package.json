@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "pizda": "tsc --noResolve --noCheck -w --jsx preserve"
+  },
+  "name": "sun-ae-ts",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5.7.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
