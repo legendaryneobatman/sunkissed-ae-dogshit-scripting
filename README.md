@@ -18,3 +18,7 @@ To set up webstorm external tool to run scripts in ae
 
 File/Settings/External Tools add new tool with following content
 ![img.png](img.png)
+
+To build .jsx script manually use similar command
+
+`tsc --noResolve --noCheck .\src\assetSuperSweep.tsx --outdir dist --jsx preserve`
